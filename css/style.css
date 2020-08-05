@@ -164,6 +164,7 @@ button:focus{
 .top-navbar .navbar{
 	padding: 15px 0px;
 	position: fixed;
+    margin-top: 45px;
 	width: 100%;
 	border-radius: 0px 0px 100px 100px;
 	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
@@ -749,7 +750,7 @@ button:focus{
 }
 .f-social li a {
     font-size: 18px;
-    color: rgba(214, 81, 6);
+    color: #BF1A2C;
 	width: 38px;
 	height: 38px;
 	display: block;
@@ -1375,16 +1376,47 @@ blockquote {
     height: 200px;
 }
 
+.text-red a{
+    color: black !important;
+}
+.text-red a:hover{
+    color: #BF1A2C !important;
+    font-weight: bold;
+}
 
+/* Header top */
 
+.topnav {
+  background-color: #BF1A2C !important;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+}
+.topnav a {
+    color: #fff !important;
+}
 
+@media (max-width: 767px){
+.top-navbar .navbar {
+    margin-top:0;
+    }
+}
+@media (max-width: 767px)
+{
+    .topnav {
+        display: none;
+}
+}
 
+/* L'organigramme */
 
-
-
-
-
-
+.img-org{
+    width: 100%;
+    height: 100%;
+    
+}
 
 
 
